@@ -1,0 +1,50 @@
+* {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazir';
+}
+
+.input-tag {
+    width: 300px;
+    background-color: #eee;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.input-tag::placeholder {
+    color: #aaa;
+}
+
+.input-tag:focus {
+    outline: none;
+}
+
+.tags {
+    margin-top: 20px;
+}
+
+.tag {
+    background-color: #555;
+    font-size: 13px;
+    padding: 0 5px;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.rmvItem {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    margin-right: 4px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.error {
+    font-size: 13px;
+    margin-top: 20px;
+}
